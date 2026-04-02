@@ -1,0 +1,9 @@
+{
+  "peft_type": "LORA",
+  "base_model_name_or_path": "models\\InternVL2-4B",
+  "r": 8,
+  "lora_alpha": null,
+  "lora_dropout": null,
+  "target_modules": null,
+  "inference_mode": true
+}

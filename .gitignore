@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual Environments
+venv_internvl/
+venv_qwen/
+venv/
+env/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# HuggingFace cache
+.hf_home/
+
+# Test results & temporary files
+test_results/
+bao_cao_thuc_nghiem.txt
+
+# Large dataset files (optional - comment out if you want to include them)
+# images/
+# chartqa_full_metadata.json
+
+# Training scripts not needed for web app
+train_glm4v9b_chartqa.py
+qwen_posthoc_loss.py
+
+# GLM model - not used in this project
+models/glm-4v-9b/
+
+# Model weights - too large for GitHub
+*.safetensors
+*.pt
+*.pth
