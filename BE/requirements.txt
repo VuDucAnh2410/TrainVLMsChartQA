@@ -1,0 +1,19 @@
+# ChartQA Backend - Python Requirements
+# Qwen2.5-VL Model Dependencies
+
+# Core ML libraries
+transformers>=4.45.0
+accelerate>=0.34.0
+safetensors>=0.4.0
+torch>=2.4.0
+torchvision>=0.19.0
+
+# Image processing
+pillow>=10.0.0
+
+# Utilities
+numpy>=1.24.0
+
+# Optional: for faster inference
+# optimum>=1.20.0
+# bitsandbytes>=0.43.0  # For quantization (GPU only)

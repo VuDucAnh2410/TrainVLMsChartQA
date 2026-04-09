@@ -1,0 +1,114 @@
+{
+  "charts": [
+    {
+      "id": "bdd8a729-4987-4f80-9abf-35cff2cab14c",
+      "title": "Tóm tắt nội dung chính?",
+      "description": "",
+      "course": "",
+      "type": "other",
+      "status": "processed",
+      "createdAt": "2026-04-09T15:00:14.791Z",
+      "fileName": "bdd8a729-4987-4f80-9abf-35cff2cab14c.png",
+      "imageUrl": "/files/qwen/bdd8a729-4987-4f80-9abf-35cff2cab14c.png"
+    }
+  ],
+  "predictLog": {
+    "bdd8a729-4987-4f80-9abf-35cff2cab14c": [
+      {
+        "id": "p_ee1ykspj",
+        "chartId": "bdd8a729-4987-4f80-9abf-35cff2cab14c",
+        "question": "Tóm tắt nội dung chính?",
+        "answer": "(Qwen) Backend đã nhận câu hỏi. Model sẽ tích hợp sau.",
+        "reasoning": "(Qwen) Backend đã nhận câu hỏi. Model sẽ tích hợp sau.",
+        "latencyMs": 0,
+        "status": "ok",
+        "createdAt": "2026-04-09T15:00:26.490Z"
+      },
+      {
+        "id": "p_qpcn8kj4",
+        "chartId": "bdd8a729-4987-4f80-9abf-35cff2cab14c",
+        "question": "Tóm tắt nội dung chính?",
+        "answer": "Python env hiện tại chưa hỗ trợ Qwen2.5-VL (thiếu Qwen2_5_VLForConditionalGeneration). Cần nâng `transformers` lên bản có Qwen2.5-VL (ví dụ `pip install -U transformers accelerate safetensors`).",
+        "reasoning": "Python env hiện tại chưa hỗ trợ Qwen2.5-VL (thiếu Qwen2_5_VLForConditionalGeneration). Cần nâng `transformers` lên bản có Qwen2.5-VL (ví dụ `pip install -U transformers accelerate safetensors`).",
+        "latencyMs": 11509,
+        "status": "error",
+        "createdAt": "2026-04-09T15:08:41.761Z"
+      },
+      {
+        "id": "p_t7rgsujh",
+        "chartId": "bdd8a729-4987-4f80-9abf-35cff2cab14c",
+        "question": "What is this?",
+        "answer": "Python env hiện tại chưa hỗ trợ Qwen2.5-VL (thiếu Qwen2_5_VLForConditionalGeneration). Cần nâng `transformers` lên bản có Qwen2.5-VL (ví dụ `pip install -U transformers accelerate safetensors`).",
+        "reasoning": "Python env hiện tại chưa hỗ trợ Qwen2.5-VL (thiếu Qwen2_5_VLForConditionalGeneration). Cần nâng `transformers` lên bản có Qwen2.5-VL (ví dụ `pip install -U transformers accelerate safetensors`).",
+        "latencyMs": 4736,
+        "status": "error",
+        "createdAt": "2026-04-09T15:17:45.684Z"
+      },
+      {
+        "id": "p_3exwqoxk",
+        "chartId": "bdd8a729-4987-4f80-9abf-35cff2cab14c",
+        "question": "Tóm tắt nội dung chính?",
+        "answer": "Python env hiện tại chưa hỗ trợ Qwen2.5-VL (thiếu Qwen2_5_VLForConditionalGeneration). Cần nâng `transformers` lên bản có Qwen2.5-VL (ví dụ `pip install -U transformers accelerate safetensors`).",
+        "reasoning": "Python env hiện tại chưa hỗ trợ Qwen2.5-VL (thiếu Qwen2_5_VLForConditionalGeneration). Cần nâng `transformers` lên bản có Qwen2.5-VL (ví dụ `pip install -U transformers accelerate safetensors`).",
+        "latencyMs": 6230,
+        "status": "error",
+        "createdAt": "2026-04-09T16:46:30.079Z"
+      },
+      {
+        "id": "p_7wedg3zb",
+        "chartId": "bdd8a729-4987-4f80-9abf-35cff2cab14c",
+        "question": "Tóm tắt nội dung chính?",
+        "answer": "Python env hiện tại chưa hỗ trợ Qwen2.5-VL (thiếu Qwen2_5_VLForConditionalGeneration). Cần nâng `transformers` lên bản có Qwen2.5-VL (ví dụ `pip install -U transformers accelerate safetensors`).",
+        "reasoning": "Python env hiện tại chưa hỗ trợ Qwen2.5-VL (thiếu Qwen2_5_VLForConditionalGeneration). Cần nâng `transformers` lên bản có Qwen2.5-VL (ví dụ `pip install -U transformers accelerate safetensors`).",
+        "latencyMs": 3,
+        "status": "error",
+        "createdAt": "2026-04-09T16:53:28.254Z"
+      },
+      {
+        "id": "p_fne9j0m0",
+        "chartId": "bdd8a729-4987-4f80-9abf-35cff2cab14c",
+        "question": "What is the value?",
+        "answer": "Tập dữ liệu huấn luyện có giá trị bởi nó cung cấp một nguồn dữ liệu đa dạng và chất lượng cao cho việc huấn luyện mô hình OCR (Optical Character Recognition). Dữ liệu này bao gồm các tài liệu chính thức, ảnh tự nhiên và chữ viết tay thực tế, giúp mô hình học được các kiểu chữ phức tạp và không đồng nhất.",
+        "reasoning": "Tập dữ liệu huấn luyện có giá trị bởi nó cung cấp một nguồn dữ liệu đa dạng và chất lượng cao cho việc huấn luyện mô hình OCR (Optical Character Recognition). Dữ liệu này bao gồm các tài liệu chính thức, ảnh tự nhiên và chữ viết tay thực tế, giúp mô hình học được các kiểu chữ phức tạp và không đồng nhất.",
+        "latencyMs": 92676,
+        "status": "ok",
+        "createdAt": "2026-04-09T16:59:17.036Z"
+      },
+      {
+        "id": "p_129oh5t0",
+        "chartId": "bdd8a729-4987-4f80-9abf-35cff2cab14c",
+        "question": "Tóm tắt nội dung chính?",
+        "answer": "Bộ dữ liệu OCR chuyên biệt (Domain-specific sets) và bộ dữ liệu phân loại (Visual Classification set).",
+        "reasoning": "Bộ dữ liệu OCR chuyên biệt (Domain-specific sets) và bộ dữ liệu phân loại (Visual Classification set).",
+        "latencyMs": 37474,
+        "status": "ok",
+        "createdAt": "2026-04-09T17:00:31.842Z"
+      },
+      {
+        "id": "p_b9j4ljez",
+        "chartId": "bdd8a729-4987-4f80-9abf-35cff2cab14c",
+        "question": "Phân tích ảnh",
+        "answer": "Bộ dữ liệu OCR chuyên biệt (Domain-specific sets) được tạo ra thông qua việc phân tích mẫu từ bộ dữ liệu huấn luyện.",
+        "reasoning": "Bộ dữ liệu OCR chuyên biệt (Domain-specific sets) được tạo ra thông qua việc phân tích mẫu từ bộ dữ liệu huấn luyện.",
+        "latencyMs": 33658,
+        "status": "ok",
+        "createdAt": "2026-04-09T17:02:20.652Z"
+      },
+      {
+        "id": "p_37n0roaj",
+        "chartId": "bdd8a729-4987-4f80-9abf-35cff2cab14c",
+        "question": "Tóm tắt nội dung chính?",
+        "answer": "Bộ dữ liệu OCR chuyên biệt (Domain-specific sets) và bộ dữ liệu phân loại (Visual Classification set).",
+        "reasoning": "Bộ dữ liệu OCR chuyên biệt (Domain-specific sets) và bộ dữ liệu phân loại (Visual Classification set).",
+        "latencyMs": 40537,
+        "status": "ok",
+        "createdAt": "2026-04-09T17:12:36.845Z"
+      }
+    ]
+  },
+  "upstream": {
+    "convMap": {},
+    "imageUploaded": {},
+    "lastError": ""
+  }
+}

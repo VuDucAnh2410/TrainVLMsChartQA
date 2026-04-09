@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head><title>Clear Cache</title></head>
+<body>
+<h1>Clearing localStorage...</h1>
+<script>
+localStorage.removeItem('cia_base_url');
+localStorage.removeItem('cia_base_url_qwen');
+localStorage.removeItem('cia_base_url_intern');
+console.log('Cleared! Redirecting...');
+setTimeout(() => {
+window.location.href = '/chat';
+}, 500);
+</script>
+</body>
+</html>
