@@ -357,14 +357,14 @@ export default function ChatPanel({
             <Box
               sx={{
                 display: "flex",
-                alignItems: "flex-end",
+                alignItems: "center",
                 gap: 1,
                 p: 1,
                 borderRadius: 3,
                 border: "1px solid",
                 borderColor: "divider",
                 bgcolor: "background.paper",
-                position: "relative",
+                
               }}
             >
               <TextField
@@ -375,6 +375,7 @@ export default function ChatPanel({
                 multiline
                 minRows={1}
                 maxRows={4}
+                sx={{ flex: 4 }}
                 fullWidth
                 InputProps={{ disableUnderline: true }}
                 onKeyDown={(e) => {
@@ -393,9 +394,7 @@ export default function ChatPanel({
                   width: 44,
                   height: 44,
                   borderRadius: 999,
-                  position: "absolute",
-                  top: "50%",
-                  right: 16,
+                  flex: 1,
                   //transform: "translateY(-50%)",
                   backgroundColor: "#4F46E5",
                   "&:hover": {

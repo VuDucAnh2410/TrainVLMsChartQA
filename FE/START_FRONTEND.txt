@@ -1,0 +1,55 @@
+=== CHAY FRONTEND - HUONG DAN NHANH ===
+
+🚀 CACH 1: DOUBLE CLICK (Don gian nhat)
+   --------------------------
+   Vao folder FE
+   Double click: start-frontend.bat
+
+
+🚀 CACH 2: COMMAND LINE
+   --------------------------
+   cd FE
+   npm run dev
+
+
+🌐 TRUY CAP FRONTEND:
+   --------------------------
+   http://localhost:5173
+   HOAC:
+   http://127.0.0.1:5173
+
+
+📊 THONG TIN:
+   --------------------------
+   • Framework: React + TypeScript + Vite
+   • UI Library: Material-UI (MUI)
+   • Port: 5173
+   • Mock Mode: FALSE (can Backend de hoat dong day du)
+
+
+⚠️  LUU Y:
+   --------------------------
+   Frontend dang NHUNG CAN BACKEND!
+
+   Frontend se goi API toi: http://localhost:8000
+
+   Neu Backend CHUA chay:
+   • Frontend van mo duoc
+   • NHUNG khong the goi API duoc
+   • Se bao loi ket noi
+
+
+🔧 CAU HINH LAI NEU CAN:
+   --------------------------
+   File: FE/.env
+   Noi dung: VITE_MOCK_MODE=false
+
+   Neu muon TEST FRONTEND KHONG BACKEND:
+   Doi: VITE_MOCK_MODE=true
+
+
+==============================
+  TRANG THAI HIEN TAI: ✅ DANG CHAY
+  Process ID: 32172
+  Port: 5173
+==============================
